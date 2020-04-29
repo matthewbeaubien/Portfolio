@@ -1,63 +1,119 @@
 
+var a = document.getElementById("project1");
+var b = document.getElementById("project2");
+var c = document.getElementById("project3");
+var d = document.getElementById("project4");
+var e = document.getElementById("project5");
+var f = document.getElementById("project6");
+var g = document.getElementById("project7");
+
 function display1() {
-  var x = document.getElementById("project1");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (a.style.display === "block") {
+    a.style.display = "none"; 
   } else {
-    x.style.display = "block";
+    a.style.display = "block";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,360);
+
   }
+
 }
 
 function display2() {
-  var x = document.getElementById("project2");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (b.style.display === "block") {
+    b.style.display = "none";
   } else {
-    x.style.display = "block";
+    b.style.display = "block";
+    a.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,300);
+
   }
+
 }
 
 function display3() {
-  var x = document.getElementById("project3");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (c.style.display === "block") {
+    c.style.display = "none";
   } else {
-    x.style.display = "block";
+    c.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,240);
+
   }
 }
 
 function display4() {
-  var x = document.getElementById("project4");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (d.style.display === "block") {
+    d.style.display = "none";
   } else {
-    x.style.display = "block";
+    d.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,180);
+
   }
 }
 
 function display5() {
-  var x = document.getElementById("project5");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (e.style.display === "block") {
+    e.style.display = "none";
   } else {
-    x.style.display = "block";
+    e.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,120);
   }
 }
 
 function display6() {
-  var x = document.getElementById("project6");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (f.style.display === "block") {
+    f.style.display = "none";
   } else {
-    x.style.display = "block";
+    f.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,60);
   }
 }
 function display7() {
-  var x = document.getElementById("project7");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (g.style.display === "block") {
+    g.style.display = "none";
   } else {
-    x.style.display = "block";
+    g.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    window.scrollTo(0,0);
   }
 }
 
