@@ -119,11 +119,19 @@ function display7() {
 
 
 
-function mouseOver() {
+function overAbout() {
   document.getElementById("about").style.display = "block";
 }
 
-function mouseOut() {
+function outAbout() {
   document.getElementById("about").style.display = "none";
+}
+
+function overName() {
+  document.getElementById("card").style.display = "block";
+}
+
+function outName() {
+  document.getElementById("card").style.display = "none";
 }
 

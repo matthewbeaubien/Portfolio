@@ -17,18 +17,23 @@
 	<p> Matthew Beaubien is a graphic designer located in Toronto, ON. He holds a Bachelor of Design from OCAD University, 2020. With an interest in interactivity and materiality, his work spans across different media: from motion, web and interaction, to print. He often finds inspiration through synaesthetic means, looking to our other senses to reinvigorate the visual domain. He is currently employed as a Research Assistant under Dr. Kate Sellen at the Health Design Studio at OCAD University. </p>
 </div>
 
-<div class="about" onmouseover="mouseOver()" onmouseout="mouseOut()">
+<div class="about" onmouseover="overAbout()" onmouseout="outAbout()">
 	<span class="h2">
-		About
+		About <a href="mailto:matthewabeaubien@gmail.com" class="contact" style="color: black;">matthewabeaubien@gmail.com</a>
 	</span>
 </div>
 <div class="name" >
-	<span class="h2">
+	<span class="h2" onmouseover="overName()" onmouseout="outName()">
 		Matthew Beaubien
 	</span>
 </div>
 	
+<div id="card" onmouseover="overName()" onmouseout="outName()" style=""><img src="assets/BusinessCard.png">
+	<div class="email" onclick="location.href='mailto:matthewabeaubien@gmail.com';" style="cursor: pointer; ">
+		
+	</div>
 </div>
+
 
 <div class="topRightY">
 	<span class="h2">Projects</span>
@@ -38,9 +43,9 @@
 		<h1 style="cursor: pointer;" onclick="display7()">Resonant Zine</h1>
 		<div class="project" id="project7" style="background-color: black;">
 			<div class="description">
-				<p><i>5.5" x 8.5" zine, digital print on bond <br> —Ongoing</i></p>
-				<p>This project is an extension of my thesis work, (see <i>Graphic Resonance</i>). It is an ongoing collaboration wherein I accept submissions of compositions that are developed with <i>Graphic Resonance.</i> </p>
-				<p>Each issue is based on an 'instrument' which allow for—not the creation of musical compositions—but for the creation of graphic compositions through sound. Each composition is related to a certain sonic effect of the everyday. </p>
+				<p><i>5.5" x 8.5" zine, digital print on bond <br> //Ongoing</i></p>
+				<p>This project follows the work of my thesis, (see <i>Graphic Resonance</i>). It is an ongoing collaboration with peers, friends, artists and designers, wherein I accept submissions of compositions that are developed with the use of <i><a href="http://www.graphicresonance.org/">Graphic Resonance.</a></i> </p>
+				<p>Each issue is based on a tool developed by me, which I describe as 'instruments'. These instruments allow for—not the creation of musical compositions—but for the creation of graphic compositions <i>through sound.</i> Each composition is related to a certain sonic effect of the everyday. </p>
 			</div>
 					<img src="assets/resonantZine/frame.jpg" style="border-bottom: 1px solid black; width: auto; height:100%">
 					<img src="assets/resonantZine/frame1.jpg" style="border-bottom: 1px solid black; width: auto; height:100%">
@@ -49,8 +54,23 @@
 					<img src="assets/resonantZine/frame4.jpg" style="border-bottom: 1px solid black; width: auto; height:100%">
 					<img src="assets/resonantZine/frame5.jpg" style="border-bottom: 1px solid black; width: auto; height:100%">
 		</div>
+
 		<h1 style="cursor: pointer;" onclick="display6()">Graphic Resonance</h1>
-		<div class="project" id="project6"></div>
+		<div class="project" id="project6">
+			<div class="description">
+				<p><i>Interactive web-based design tool<br> //Ongoing</i></p>
+				<p>(under construction)</p>
+				<p>See the project <a href="http://www.graphicresonance.org/">here</a>!</p>
+				
+				<p>This is an ongoing project constituted by a collection of interactive graphic compositions. Each composition represents a certain sonic effect of the everyday.
+				<p>Sound permeates our lives. It contains latent primordial information inherent to auditory scene analysis and, in turn, our survival. Sound carries with it emotional information, which allows us to understand one another sentimentally. It carries linguistic and semantic informaition which allows us to logically understand one another. It carries with it mnemonic information, which allows us to reminisce.
+				<p>
+				Sound has seemingly limitless dimensionality which can be difficult to parse. This project seeks to translate the sonic domain into the more familiar graphic domain. It seeks to harness the emotional, semantic, and mnemonic power of sound and apply it to graphic composition.
+				<p>
+				Furthermore, this project seeks to create a confluence and collaboration between the domain of the design author and the design consumer and, furthermore, between the design artifact and the environment in which it is immersed. Graphic Resonance seeks to create instruments—not for the composition of musical scores—but for the composition of graphic artifacts.</p>
+			</div>
+		</div>
+
 		<h1 style="cursor: pointer;" onclick="display5()">Sound Study</h1>
 			<div class="project" id="project5" style="background-color: black;">
 				<div class="description" style="color: white; background-color: none;">
@@ -113,11 +133,12 @@
 				<p><i>11" x 17" pamphlet, digital print and thermochromic screenprint on Durotone aged newsprint <br> —February 2019</i></p>
 				<p>This project began as an exploration of the word "acoluthic". Acoluthic is defined as "following immediately (as a visual afterimage) upon the primary activity aroused by a stimulus." Think about the image you get in your eyes after staring at a bright light. I thought of this word in the context of monuments and artifacts of ancient civilizations. These are essentially afterimages of the civilization that created them. </p>
 				<p>Since 2014 the Islamic State has perpetrated the deliberate destruction of cultural heritage in Syria. They loot and destroy artifacts and monuments in museums and historical sites. Palmyra saw monumental losses from the actions of ISIS. </p>
-				<p>I created an educational pamphlet outlining the Islamic State's attack on culture in Syria. I used silhouette illustrations of the ancient Roman tetrapylon and triumphal arch as symbols of this loss. The silhouettes, printed in thermochromic ink, reveal the monuments in their current state, leaving just an afterimage of what once was. A message contextualizing this loss is also revealed.</p>
+				<p>I created an educational pamphlet outlining the Islamic State's attack on culture in Syria. I used silhouette illustrations of the ancient Roman tetrapylon and triumphal arch as symbols of this loss. When one touches the pamphlet, the silhouettes which are printed in heat sensitive ink, reveal the monuments in their current state, leaving just an afterimage of what once was. A message contextualizing this loss is also revealed.</p>
 			</div>
 			
-			<div class="scrolledContent">	
-				<img src="assets/acoluthic/pamphlet0.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 50px; border-bottom: 1px solid black;">
+			<div class="scrolledContent">
+				<img src="assets/acoluthic/pamphlet10.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 30px; border-bottom: 1px solid black;">	
+				<img src="assets/acoluthic/pamphlet0.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
 				<img src="assets/acoluthic/pamphlet1.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
 				<img src="assets/acoluthic/pamphlet2.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
 				<img src="assets/acoluthic/pamphlet3.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
@@ -127,6 +148,8 @@
 				<img src="assets/acoluthic/pamphlet7.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
 				<img src="assets/acoluthic/pamphlet8.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
 				<img src="assets/acoluthic/pamphlet9.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
+				<img src="assets/acoluthic/aftermath1.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px; border-bottom: 1px solid black;">
+				<img src="assets/acoluthic/aftermath2.jpg" width="60%" height="auto" style="margin-left:25px; margin-top: 25px;margin-bottom: 25px; border-bottom: 1px solid black;">
 			</div>
 		</div>
 

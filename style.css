@@ -30,6 +30,7 @@ body{
 }
 
 
+
 img{	
 
 		position: relative;
@@ -129,34 +130,66 @@ p{
 	font-weight: normal;
 }
 .about{
-	transform: rotate(-90deg) translate(50%, -50%);
+	transform: rotate(-90deg) translate(50%, -125px);
 	z-index: 101;
 	position: fixed;
 	bottom: 50px;
 	left: 45px;
 	font-weight: normal;
+	transition: 0.3s;
 }
 
 .about:hover{
 	font-style: italic;
+	transform: rotate(-90deg) translate(50%, -150px);
+
+}
+
+.contact{
+	margin-left: 0px;
+	font-size: 1rem;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.about:hover .contact{
+	opacity: 1;
+	margin-left: 50px;
 }
 
 .name{
-
+	z-index: 100;
 	position: fixed;
 	top: 30px;
 	left: 50px;
 	font-weight: normal;
 }
 
-.contact{
-
-	z-index: 101;
+#card{
 	position: fixed;
-	bottom: 50px;
-	right: 45px;
+	/*top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);*/
+	top: 10px;
+	left: 20px;
+	z-index: 100;
+	display: none;
+	width: 700px;
+	height: 400px;
+	opacity: 1;
+	/*box-shadow: 5px 10px 10px black*/
+}
+#card:hover{
+	display: block;
 }
 
+.email{
+	position: absolute;
+	width: 50%;
+	height: 5%;
+	left: 5%;
+	top:62%;
+}
 
 .topRightY{
 	position: fixed;
@@ -192,8 +225,6 @@ p{
 	background-color: black;
 	margin-bottom: 20px;
 	overflow-y: auto;
-
-
 
 }
 
