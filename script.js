@@ -18,7 +18,7 @@ function display1() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,360);
+    window.scrollTo(0,290);
 
   }
 
@@ -35,7 +35,7 @@ function display2() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,300);
+    window.scrollTo(0,240);
 
   }
 
@@ -52,7 +52,7 @@ function display3() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,240);
+    window.scrollTo(0,190);
 
   }
 }
@@ -68,7 +68,7 @@ function display4() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,180);
+    window.scrollTo(0,140);
 
   }
 }
@@ -84,7 +84,7 @@ function display5() {
     d.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,120);
+    window.scrollTo(0,90);
   }
 }
 
@@ -99,7 +99,7 @@ function display6() {
     d.style.display = "none";
     e.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,60);
+    window.scrollTo(0,40);
   }
 }
 function display7() {
@@ -134,4 +134,6 @@ function overName() {
 function outName() {
   document.getElementById("card").style.display = "none";
 }
+
+
 

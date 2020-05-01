@@ -27,6 +27,7 @@
 body{
 	font-family: "Times New Roman", "Times";
 	margin-top: 5vh;
+	overflow: hidden;
 }
 
 
@@ -54,7 +55,7 @@ a:hover{
 
 li{
 	font-family: "Times New Roman", "Times";
-	margin-top: 10px;
+	margin-top: 8px;
 	margin-bottom: 10px;
 	margin-left: 20px;
 	list-style: none;
@@ -73,15 +74,15 @@ li:hover {
 }
 h1{
 	font-family: "Aktiv Grotesk", sans-serif;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 200;
-	line-height: 1.3em;
+	line-height: 1.25em;
 	margin: 0;
 	transition: 0.3s;
 }	
 
 h1:hover{
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 .h2{
@@ -229,9 +230,9 @@ p{
 }
 
 .scrolledContent::-webkit-scrollbar {
-	width: 0px; 
-}
 
+}
+	
 .scrolledContent{
 
 	overflow-y: auto;
@@ -256,7 +257,7 @@ p{
 	z-index: 100;
 }*/
 .description{
-	position: absolute;
+	position: fixed;
 	width: 30%;
 	right: 25px;
 	top: 0px;
