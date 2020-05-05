@@ -184,12 +184,14 @@ p{
 	display: block;
 }
 
-.email{
+.link{
 	position: absolute;
-	width: 50%;
-	height: 5%;
+	width: 45%;
+	height: 7%;
 	left: 5%;
-	top:62%;
+	top:61%;
+	background:transparent;
+
 }
 
 .topRightY{
