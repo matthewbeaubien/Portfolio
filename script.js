@@ -1,4 +1,4 @@
-
+  
 var a = document.getElementById("project1");
 var b = document.getElementById("project2");
 var c = document.getElementById("project3");
