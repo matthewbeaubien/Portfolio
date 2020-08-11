@@ -6,6 +6,7 @@ var d = document.getElementById("project4");
 var e = document.getElementById("project5");
 var f = document.getElementById("project6");
 var g = document.getElementById("project7");
+var h = document.getElementById("project8");
 
 function display1() {
   if (a.style.display === "block") {
@@ -18,7 +19,8 @@ function display1() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,290);
+    h.style.display = "none";
+    window.scrollTo(0,340);
 
   }
 
@@ -35,7 +37,8 @@ function display2() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    window.scrollTo(0,240);
+    h.style.display = "none";
+    window.scrollTo(0,290);
 
   }
 
@@ -52,6 +55,7 @@ function display3() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
+    h.style.display = "none";
     window.scrollTo(0,190);
 
   }
@@ -68,6 +72,7 @@ function display4() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
+    h.style.display = "none";
     window.scrollTo(0,140);
 
   }
@@ -84,6 +89,7 @@ function display5() {
     d.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
+    h.style.display = "none";
     window.scrollTo(0,90);
   }
 }
@@ -99,6 +105,7 @@ function display6() {
     d.style.display = "none";
     e.style.display = "none";
     g.style.display = "none";
+    h.style.display = "none";
     window.scrollTo(0,40);
   }
 }
@@ -113,7 +120,23 @@ function display7() {
     d.style.display = "none";
     e.style.display = "none";
     f.style.display = "none";
+    h.style.display = "none";
     window.scrollTo(0,0);
+  }
+}
+function display8() {
+  if (h.style.display === "block") {
+    h.style.display = "none";
+  } else {
+    h.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    window.scrollTo(0,240);
   }
 }
 
