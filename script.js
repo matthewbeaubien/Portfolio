@@ -7,6 +7,7 @@ var e = document.getElementById("project5");
 var f = document.getElementById("project6");
 var g = document.getElementById("project7");
 var h = document.getElementById("project8");
+var i = document.getElementById("project0");
 
 function display1() {
   if (a.style.display === "block") {
@@ -20,7 +21,8 @@ function display1() {
     f.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,340);
+    i.style.display = "none";
+    window.scrollTo(0,390);
 
   }
 
@@ -38,7 +40,8 @@ function display2() {
     f.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,290);
+    i.style.display = "none";
+    window.scrollTo(0,340);
 
   }
 
@@ -56,7 +59,8 @@ function display3() {
     f.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,190);
+    i.style.display = "none";
+    window.scrollTo(0,240);
 
   }
 }
@@ -73,7 +77,8 @@ function display4() {
     f.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,140);
+    i.style.display = "none";
+    window.scrollTo(0,190);
 
   }
 }
@@ -90,7 +95,8 @@ function display5() {
     f.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,90);
+    i.style.display = "none";
+    window.scrollTo(0,140);
   }
 }
 
@@ -106,7 +112,8 @@ function display6() {
     e.style.display = "none";
     g.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,40);
+    i.style.display = "none";
+    window.scrollTo(0,90);
   }
 }
 function display7() {
@@ -121,7 +128,8 @@ function display7() {
     e.style.display = "none";
     f.style.display = "none";
     h.style.display = "none";
-    window.scrollTo(0,0);
+    i.style.display = "none";
+    window.scrollTo(0,40);
   }
 }
 function display8() {
@@ -136,7 +144,25 @@ function display8() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
+    i.style.display = "none";
     window.scrollTo(0,240);
+  }
+}
+
+function display0() {
+  if (i.style.display === "block") {
+    i.style.display = "none";
+  } else {
+    i.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "none";
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    h.style.display = "none";
+    window.scrollTo(0,0);
   }
 }
 
