@@ -145,7 +145,7 @@ function display8() {
     f.style.display = "none";
     g.style.display = "none";
     i.style.display = "none";
-    window.scrollTo(0,240);
+    window.scrollTo(0,290);
   }
 }
 
